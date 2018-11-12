@@ -770,11 +770,11 @@ __webpack_require__(9);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-// Vue.component('example-component', __webpack_require__(35));
+Vue.component('example-component', __webpack_require__(35));
 
-// var app = new Vue({
-//   el: '#app'
-// });
+var app = new Vue({
+  el: '#app'
+});
 
 /***/ }),
 /* 9 */
@@ -811,12 +811,12 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
  * a simple convenience so we don't have to attach every token manually.
  */
 
-// var token = document.head.querySelector('meta[name="csrf-token"]');
+// let token = document.head.querySelector('meta[name="csrf-token"]');
 
 // if (token) {
-//   window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
+//     window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
 // } else {
-//   console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+//     console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
 // }
 
 /**
